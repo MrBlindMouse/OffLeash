@@ -2,5 +2,5 @@ import reflex as rx
 
 config = rx.Config(
     app_name="OffLeash",
-    api_url="http://192.168.10.100:3001",
+    deploy_url="http://0.0.0.0:3001",
 )
