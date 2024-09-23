@@ -1,0 +1,40 @@
+body{
+  background-image: url('https://picsum.photos/1920/1080'); 
+  background-color: rgb(255, 255, 255);
+}
+footer{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.button{
+  background-color: aliceblue;
+  color: black;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  width: 75px;
+}
+.button:hover{
+  background-color: #acd8ff
+}
+
+.flexContainer{
+  display: flex;
+}
+.flexContainer div{
+  width: 250;
+  flex: 1 1 auto;
+}
+.flexContainer .content{
+  width: 1000px;
+  flex-shrink: 4 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 10px;
+}
